@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build: .
-    container_name: ema-backend
+    container_name: ema-backend-test
     ports:
       - "5000:5000"
     volumes:
@@ -20,7 +20,7 @@ services:
 
   db:
     image: postgres:16
-    container_name: ema-db
+    container_name: ema-db-test
     restart: always
     environment:
       POSTGRES_USER: postgres
