@@ -93,12 +93,7 @@ estado de reserva y estado de pago.
 
 ## Imagen del diagrama
 
-Se recomienda mantener una copia visual del ERD en formato de imagen
-(PNG, JPG o SVG) dentro de la carpeta `docs/`.
-
-Ejemplo de referencia:
-
-![Diagrama ER - Ellie's Music Academy](./ERD.png)
+![alt text](EMA-DB.png)
 
 ------------------------------------------------------------------------
 
